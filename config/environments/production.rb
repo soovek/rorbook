@@ -80,4 +80,7 @@ Rails.application.configure do
   # Devise mailer
   config.action_mailer.default_url_options = { host: 'soovekror.herokuapp.com', port: 3000 }
   
+  # Logout in production
+  config.serve_static_assets = true
+  
 end
