@@ -81,6 +81,6 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'soovekror.herokuapp.com', port: 3000 }
   
   # Logout in production
-  config.serve_static_assets = true
+  config.sign_out_via = :delete
   
 end
